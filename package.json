@@ -1,0 +1,13 @@
+{
+  "name": "video-converter-tool",
+  "version": "1.0.0",
+  "description": "Video to MP4 converter tool",
+  "main": "server.js",
+  "scripts": {
+    "start": "python3 -m pip install --user yt-dlp && node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  }
+}
