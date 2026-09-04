@@ -4,7 +4,7 @@
   "description": "Video to MP4 converter tool",
   "main": "server.js",
   "scripts": {
-    "start": "python3 -m pip install --user yt-dlp && node server.js"
+    "start": "pip install --user --break-system-packages yt-dlp && node server.js"
   },
   "dependencies": {
     "cors": "^2.8.5",
